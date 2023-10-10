@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title>Rami's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <main>
+        <div class="wrapper">
+               <!-------Mobile nav------->
+               <div class="mobile-nav-bar">
+                <div class="navigation">
+                    <ul>
+                        <li class="list active">
+            
+                            <a href="./index.html?active=0">
+                                <span id="0" onclick="setActiveState('0')" class="icon">
+                                    <i class="fa-solid fa-house"></i>
+                                </span>
+                                <span class="text">
+                                    Home
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list">
+            
+                            <a href="./PORTFOLIO.html?active=1">
+                                <span id="1" onclick="setActiveState('1')" class="icon">
+                                    <i class="fa-solid fa-business-time"></i>
+                                </span>
+                                <span class="text">
+                                    Portfolio
+                                </span>
+                            </a>
+                        </li>
+            
+                        <li class="list">
+            
+                            <a href="./ABOUTME.html?active=2">
+                                <span id="2" onclick="setActiveState('2')" class="icon">
+                                    <i class="fa-solid fa-user"></i>
+                                </span>
+                                <span class="text">
+                                    About
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list">
+                            <a href="Anguiano,%20Rami%20RESUME.pdf">
+                                <span id="3" onclick="setActiveState('3')" class="icon">
+                                    <i class="fa-solid fa-medal"></i>
+                                </span>
+                                <span class="text">
+                                    Resume
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list ">
+            
+                            <a href="#contact">
+                                <span id="4" onclick="setActiveState('4')" class="icon">
+                                    <i class="fa-solid fa-address-card"></i>
+                                </span>
+                                <span class="text">
+                                    Contact
+                                </span>
+                            </a>
+                        </li>
+            
+                        <div class="indicator"></div>
+                    </ul>
+            
+                </div>
+            </div>
+            <div id="header-about">
+                    <nav>
+                        <a href="index.html"><img src="Black%20And%20White%20Rakia%20Design%20Studio%20Logo.png" class="logo"></a> 
+                        <ul>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="PORTFOLIO.html">PORTFOLIO</a></li>
+                            <li><a href="ABOUTME.html">ABOUT</a></li>
+                            <li><a href="Anguiano,%20Rami%20RESUME.pdf">RESUME</a></li>
+                            <li><a href="#contact">CONTACT</a></li>
+                        </ul>
+                        <!------Email & LinkedIn------->
+                        <div class="nav-contact">
+                            <a href=""><i class="fa-brands fa-linkedin-in icon" style="color: #ffffff;"></i></a>
+                            <a href=""><i class="fa-regular fa-envelope icon" style="color: #ffffff;"></i></a>
+                        </div>
+                    </nav>
+            </div>
+            <!----------------------ABOUTME------------------>
+            <div id="about" class="about">
+                    <div class="row">
+                        <div class="about-col-1">
+                            <img src="PORTRAIT%20PHOTO%20ASSET.png">
+                        </div>
+                        <div class="about-col-2">
+                            <h1 class="sub-title">FAQ: Featuring Me!</h1> <br>
+                            <h2> Who are you?</h2>
+                            <p> <br>
+                            <p> Nice to meet you! My name is Rami Anguiano. I am a current student studying UX Design at the
+                                University of Tenneessee.</p> <br>
+                            <h2> What are your career goals?</h2><br>
+                             <p> My end
+                                goal is to become very knowledgeable in UI/UX, and hold a career
+                                in this field. I am ready to be challenged to grow as an asset. I want to curate fluid and unique
+                                expereinces with technology </p>
+                           <br>
+                            <h2> What are your interests outside of work?</h2><br>
+                            <p> When I am not studying new programs like figma and adobe XDS there are many things I enjoy to do.</p>
+                            <br><br> This includes:
+                            <br> <br>
+                            <li>Leisurely walks</li>
+                            <li>Drawing</li>
+                            <li>Photography</li>
+                            <li>Gaming</li>
+                            <li>Enjoying music</li>
+                            </p> <br>
+                            <h2> What are your work experiences?</h2><br>
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('experience')">Recent Experience</p>
+                                <p class="tab-links" onclick="opentab('education')">Education</p>
+                            </div>
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>UX</span><br>Designing Web/App interfaces</li>
+                                    <li><span>Developing Toolset</span><br>Figma, Adobe XD, Photoshop</li>
+                                    <li><span>Soft Skills</span><br>Open-minded,Team-oriented,Self-Driven</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>Current</span><br>Looking for employment/ internships</li>
+                                    <li><span>06-2022 to 11/2022</span><br>Full-Time Care Partner</li>
+                                    <li><span>04/2022 to 07/2022</span><br>Retail Associate for TJX MARSHALLS</li>
+                                    <li><span>08/2021 to 01/2022</span><br>Resident Assistant for Austin Peay State University.
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>2022-2023</span><br>Currently working on BA-Information Sciences-UXD Concetration
+                                        | Minor in Graphic Design </li>
+                                    <li><span>2020-2021</span><br>Studied at Austin Peay State University</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <!-- ---------services---------------- -->
+            <!--------FOOTER------>
+            </div>
+        
+        
+        </div>
+    </main>
+    <footer>
+        <div id="contact">
+            <div class="container">
+
+                <div class="contact-left">
+                    <h1 class="sub-title">Let's Connect</h1>
+                    <p class="email"><i class="fa-solid fa-envelope" style="color: #ff9cee;"></i>patriciang050@gmail.com
+                    </p>
+                    <a href="Anguiano,%20Rami%20RESUME.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <h1>get in touch with me</h1>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-twitter-square"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+   
+             <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+             <script>
+                // common.js
+
+function setActiveLink(activeIndex) {
+    const list = document.querySelectorAll('.list');
+    list.forEach((item) => item.classList.remove('active'));
+    list[activeIndex].classList.add('active');
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const activeIndex = parseInt(urlParams.get('active')) || 0;
+    setActiveLink(activeIndex);
+});
+
+             </script>
+</body>
+
+</html>
+
+

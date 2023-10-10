@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Rami's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="wrapper">
+            <!-------Mobile nav------->
+            <div class="mobile-nav-bar">
+                <div class="navigation">
+                    <ul>
+                        <li class="list active">
+            
+                            <a href="./index.html?active=0">
+                                <span id="0" onclick="setActiveState('0')" class="icon">
+                                    <i class="fa-solid fa-house"></i>
+                                </span>
+                                <span class="text">
+                                    Home
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list">
+            
+                            <a href="./PORTFOLIO.html?active=1">
+                                <span id="1" onclick="setActiveState('1')" class="icon">
+                                    <i class="fa-solid fa-business-time"></i>
+                                </span>
+                                <span class="text">
+                                    Portfolio
+                                </span>
+                            </a>
+                        </li>
+            
+                        <li class="list">
+            
+                            <a href="./ABOUTME.html?active=2">
+                                <span id="2" onclick="setActiveState('2')" class="icon">
+                                    <i class="fa-solid fa-user"></i>
+                                </span>
+                                <span class="text">
+                                    About
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list">
+                            <a href="Anguiano,%20Rami%20RESUME.pdf">
+                                <span id="3" onclick="setActiveState('3')" class="icon">
+                                    <i class="fa-solid fa-medal"></i>
+                                </span>
+                                <span class="text">
+                                    Resume
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list ">
+            
+                            <a href="#contact">
+                                <span id="4" onclick="setActiveState('4')" class="icon">
+                                    <i class="fa-solid fa-address-card"></i>
+                                </span>
+                            </a>
+                        </li>
+            
+                        <div class="indicator"></div>
+                    </ul>
+            
+                </div>
+            </div>
+            <div id="homepage-header">
+                <div class="container">
+                    <nav>
+                        <a href="index.html"><img src="Black%20And%20White%20Rakia%20Design%20Studio%20Logo.png"
+                                class="logo"></a>
+                        <ul>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="PORTFOLIO.html">PORTFOLIO</a></li>
+                            <li><a href="ABOUTME.html">ABOUT</a></li>
+                            <li><a href="Anguiano,%20Rami%20RESUME.pdf">RESUME</a></li>
+                            <li><a href="#contact">CONTACT</a></li>
+                        </ul>
+                         <!------Email & LinkedIn------->
+                        <div class="nav-contact">
+                            <a href=""><i class="fa-brands fa-linkedin-in icon" style="color: #ffffff;"></i></a>
+                            <a href=""><i class="fa-regular fa-envelope icon" style="color: #ffffff;"></i></a>
+                        </div>
+                    </nav>
+                    <div class="header">
+                        <div class="header-text">
+                            <p class="gray-p">UX DESIGNER</p>
+                            <div class="type-text">
+                                <h1>Hi, I'm </h1>
+                                <h1 class="typewrite" data-period="1000"
+                                    data-type='[ "Rami", "an aspiring UX desginer."]'><span></span></h1>
+                            </div>
+                            <p class="bottom-text"> My goal is to create impactful user-centered designs
+                                and experiences</p>
+                        </div>
+                        <div class="img">
+                            <img src="./bg-img.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ----------portfolio------------ -->
+            <div id="portfolio">
+                <div class="container">
+                    <h1 class="sub-title">PORTFOLIO</h1>
+                    <p class="main-p">Recent Projects</p>
+                    <div class="work-list">
+                        <div class="work">
+                            <img src="E-Link%20Recent%20Work.png">
+                            <div class="layer">
+                                <h3>E-Link Redesigned</h3>
+                                <p>Internship Work</p>
+                                <a href="ELINK.html"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="Group-%20Me%20Recent%20Work.png">
+                            <div class="layer">
+                                <h3>GroupMe Redesign</h3>
+                                <p>WIP</p>
+                                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="VOL%20SHOP-%20Recent%20Work.png">
+                            <div class="layer">
+                                <h3>VOL SHOP MOBILE APP</h3>
+                                <p>WIP</p>
+                                <a href="VOLSHOP.html"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="WORK.html" class="btn">See more</a>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <!------------FOOTER AND CONTACT----->
+
+        </div>
+    </main>
+    <footer>
+        <div id="contact">
+            <div class="container">
+
+                <div class="contact-left">
+                    <h1 class="sub-title">Let's Connect</h1>
+                    <p class="email"><i class="fa-solid fa-envelope" style="color: #ff9cee;"></i>patriciang050@gmail.com
+                    </p>
+                    <a href="Anguiano,%20Rami%20RESUME.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <h1>get in touch with me</h1>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-twitter-square"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <script>
+        var TxtType = function (el, toRotate, period) {
+            this.toRotate = toRotate;
+            this.el = el;
+            this.loopNum = 0;
+            this.period = parseInt(period, 10) || 2000;
+            this.txt = '';
+            this.tick();
+            this.isDeleting = false;
+        };
+
+        TxtType.prototype.tick = function () {
+            var i = this.loopNum % this.toRotate.length;
+            var fullTxt = this.toRotate[i];
+
+            if (this.isDeleting) {
+                this.txt = fullTxt.substring(0, this.txt.length - 1);
+            } else {
+                this.txt = fullTxt.substring(0, this.txt.length + 1);
+            }
+
+            this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
+
+            var that = this;
+            var delta = 200 - Math.random() * 100;
+
+            if (this.isDeleting) { delta /= 2; }
+
+            if (!this.isDeleting && this.txt === fullTxt) {
+                delta = this.period;
+                this.isDeleting = true;
+            } else if (this.isDeleting && this.txt === '') {
+                this.isDeleting = false;
+                this.loopNum++;
+                delta = 500;
+            }
+
+            setTimeout(function () {
+                that.tick();
+            }, delta);
+        };
+
+        window.onload = function () {
+            var elements = document.getElementsByClassName('typewrite');
+            for (var i = 0; i < elements.length; i++) {
+                var toRotate = elements[i].getAttribute('data-type');
+                var period = elements[i].getAttribute('data-period');
+                if (toRotate) {
+                    new TxtType(elements[i], JSON.parse(toRotate), period);
+                }
+            }
+            // INJECT CSS
+            var css = document.createElement("style");
+            css.type = "text/css";
+            css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #FF9CEE}";
+            document.body.appendChild(css);
+        };
+    </script>
+    <script>
+        const menuOpen = document.querySelector(".menu-open");
+        const mobileMenu = document.querySelector(".nav-lst");
+        const menuClose = document.querySelector(".menu-close");
+
+        function toggleMenu() {
+            const isOpen = mobileMenu.style.display === "flex";
+
+            mobileMenu.style.display = isOpen ? "none" : "flex";
+            menuOpen.style.display = isOpen ? "block" : "none";
+            menuClose.style.display = isOpen ? "none" : "block";
+        }
+
+        menuOpen.addEventListener("click", toggleMenu);
+        menuClose.addEventListener("click", toggleMenu);
+
+    </script>
+
+             <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+    
+          
+    <script>
+        // common.js
+
+function setActiveLink(activeIndex) {
+    const list = document.querySelectorAll('.list');
+    list.forEach((item) => item.classList.remove('active'));
+    list[activeIndex].classList.add('active');
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const activeIndex = parseInt(urlParams.get('active')) || 0;
+    setActiveLink(activeIndex);
+});
+
+    </script>
+</body>
+
+</html>
